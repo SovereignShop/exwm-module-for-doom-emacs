@@ -86,7 +86,7 @@ expansion occurs within the parent Emacs session.")
            :desc "Find this file in vanilla Emacs" "V" #'+exwm-vanilla-emacs-find-this-file))
 
     ;; For people who run nested Emacs instances within EXWM.
-    (setq! exwm-replace nil)
+    ;; (setq! exwm-replace nil)
 
     ;; Fixes focus being lost from EXWM buffers when switching workspaces or
     ;; buffers. This seems to be a problem specific to Doom. There is probably a
